@@ -16,8 +16,7 @@ body{
     background-color: #fff;
 }
 
-/*--------- heаder ----------*/
-
+    
 header{
     background-color: var(--color-bg);
     display: flex;
@@ -57,12 +56,11 @@ header{
     border-radius: 6px;
 }
 
-/*--------- main screen ----------*/
 
 .container{
     display: flex;
-    gap: 140px;
-    margin: 96px 144px 40px 144px;
+    gap: px;
+    margin: 96px 100px 40px 144px;
     align-items: center; 
 
 }
@@ -96,7 +94,6 @@ header{
     border-radius: 4px;
 }
 
-/*--------- Our Clients ----------*/
 
 .our_clients{
     text-align: center;
@@ -122,7 +119,6 @@ header{
     gap: 110px;
 }
 
-/*--------- Manage content ----------*/
 
 .manage_content{
     text-align: center;
@@ -166,11 +162,26 @@ header{
     left: 50%;
     transform: translateX(-50%); 
     background-color: #E8F5E9;
-    padding: 10px;
+    padding: 5px;
     border-top-left-radius: 10px; 
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 18px; 
+    
+}
+
+body a{
+    transition: 0.3s;
+}
+
+body a:hover{
+    color: red;
+    text-decoration: underline;
+
+}
+
+body button{
+    transition: 0.3s;
 }
 
 .icon img {
@@ -193,7 +204,6 @@ header{
     font-size: 14px;
 }
 
-/*---------  about content ----------*/
 
 .about{
     display: flex;
@@ -233,8 +243,6 @@ header{
     border: none;
     border-radius: 4px;
 }
-
-/*---------  Local busines content ----------*/
 
 .local_business{
     background-color: #F5F7FA;
@@ -289,7 +297,6 @@ header{
     font-size: 16px;
 }
 
-/*---------  Calender content ----------*/
 
 .calender{
     display: flex;
@@ -325,7 +332,6 @@ header{
     border-radius: 4px;
 }
 
-/*---------  customers content ----------*/
 
 .customers{
     background-color: #F5F7FA;
@@ -368,21 +374,35 @@ header{
 }
 .customers_list_item{
     display: flex;
-    gap: 41px;
+    gap: 10px;
     margin-right: 32px;
+}
+
+.customers_list_item img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 .all_customers{
     display: inline-flex;
-    gap: 8px;
+    gap: 9px;
+    transition: 0.3s;
+
+
 }
+
+ .all_customers a:hover{
+    color: black;
+    }
+
 .all_customers a{
     text-decoration: none;
     color: #4CAF4F;
-    font-size: 20px;
-    font-weight: 500;
-}
+    font-size: 16px;
+    font-weight: 100;
+        transition: 0.3s;
 
-/*---------  community content ----------*/
+}
 
 .community{
     margin: 0px auto;
@@ -438,7 +458,6 @@ header{
     margin-bottom: 16px;
 }
 
-/*---------  demo content ----------*/
 
 .demo{
     width: 100%;
@@ -464,7 +483,6 @@ header{
     margin-top: 32px;
 }
 
-/*---------  Footer content ----------*/
 
 footer{
     display: flex;
@@ -524,21 +542,19 @@ footer{
 }
 
 .stey_up h4{
-    color: #fff;
+    color: #ffffff;
     font-size: 20px;
     margin-bottom: 24px;
 }
 
 .stey_up input{
-    background-color: #7a7a7a;
+    background-color: black;
     font-size: 14px;
     border: none;
     border-radius: 8px;
     padding: 9px 117px 11px 12px;
-    color: #fff;
+    color: black;
     font-family: "Inter";
 }
-
-
 
  /* Asilbek Shakarboyev imtihon  tayyor */ 
